@@ -21,7 +21,7 @@ Time complexity: \\( \mathcal{O} ( n ^ 2 ) \\)
 
 Space complexity: \\( \mathcal{O} ( 1 ) \\)
 
-```rust
+```rust, edition2018, no_run
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     for (num, i) in nums.iter().zip(0..) {
         for j in i + 1..nums.len() {
@@ -43,7 +43,7 @@ Time complexity: \\( \mathcal{O} ( n ) \\)
 
 Space complexity: \\( \mathcal{O} ( n ) \\)
 
-```rust
+```rust, edition2018, no_run
 use std::collections::HashMap;
 
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
@@ -70,7 +70,7 @@ Time complexity: \\( \mathcal{O} ( n ) \\)
 
 Space complexity: \\( \mathcal{O} ( n ) \\)
 
-```rust
+```rust, edition2018, no_run
 use std::collections::HashMap;
 
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
