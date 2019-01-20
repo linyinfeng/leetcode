@@ -1,7 +1,8 @@
 # Summary
 
-- [Two Sum](./solutions/1-two-sum.md)
-- [Add Two Numbers](./solutions/2-add-two-numbers.md)
+[Foreword](foreword.md)
 
 ---
-[Contribution](./contribution.md)
+
+- [Two Sum](solutions/1-two-sum.md)
+- [Add Two Numbers](solutions/2-add-two-numbers.md)
