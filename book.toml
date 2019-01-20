@@ -1,0 +1,15 @@
+[book]
+title = "Lin Yinfeng's LeetCode Solutions"
+authors = ["Lin Yinfeng"]
+description = "Lin Yinfeng's LeetCode solutions."
+src = "src"
+multilingual = false
+
+[build]
+create-missing = false
+
+[output.html]
+mathjax-support = true
+
+[output.html.playpen]
+editable = true
