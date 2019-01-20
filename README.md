@@ -1,5 +1,7 @@
 # Lin Yinfeng's LeetCode Solutions
 
+[![Build Status](https://travis-ci.com/linyinfeng/leetcode.svg?branch=master)](https://travis-ci.com/linyinfeng/leetcode)
+
 Yet another LeetCode solution collection. Update irregularly.
 Check <https://www.linyinfeng.com/leetcode/>.
 
