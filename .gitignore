@@ -1,2 +1,7 @@
-book
-.vscode
+*
+*.*
+!.gitignore
+!book.toml
+!.travis.yml
+!LICENSE
+!*.md
