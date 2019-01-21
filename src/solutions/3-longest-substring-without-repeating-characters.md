@@ -39,9 +39,11 @@ Explanation: The answer is "wke", with the length of 3.
 
 ### Solution 1
 
-Time complexity: \\( \mathcal{O} ( n ^ 2 ) \\)
+Time complexity: \\( \mathcal{O} ( n ) \\)
 
-Space complexity: \\( \mathcal{O} ( 1 ) \\)
+Space complexity: \\( \mathcal{O} ( m ) \\)
+
+where \\( n \\) is the length of string,  \\( m \\) is the number of unique characters in the string.
 
 ```rust, edition2018, no_run
 use std::collections::HashMap;
