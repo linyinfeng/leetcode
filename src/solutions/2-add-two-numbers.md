@@ -48,14 +48,14 @@ pub fn add_two_numbers(
 
     let mut carry = 0;
     loop {
+        // check finished
+        if p1.is_none() && p2.is_none() && carry == 0 { break; }
+
         let mut sum = carry;
         if let Some(node) = p1 { sum += node.val; }
         if let Some(node) = p2 { sum += node.val; }
         let value = sum % 10;
         carry = sum / 10;
-
-        // check finished
-        if p1.is_none() && p2.is_none() && sum == 0 { break; }
 
         // create new node
         *current = Some(Box::new(ListNode::new(value)));
