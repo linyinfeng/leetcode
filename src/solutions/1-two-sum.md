@@ -29,6 +29,8 @@ Time complexity: \\( \mathcal{O} ( n ^ 2 ) \\)
 
 Space complexity: \\( \mathcal{O} ( 1 ) \\)
 
+where \\( n \\) is the size of the input array.
+
 ```rust, edition2018, no_run
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     for (num, i) in nums.iter().zip(0..) {
@@ -50,6 +52,8 @@ assert_eq!(two_sum(vec![3, 2, 4], 6), vec![1, 2]);
 Time complexity: \\( \mathcal{O} ( n ) \\)
 
 Space complexity: \\( \mathcal{O} ( n ) \\)
+
+where \\( n \\) is the size of the input array.
 
 ```rust, edition2018, no_run
 use std::collections::HashMap;
@@ -77,6 +81,8 @@ assert_eq!(two_sum(vec![3, 2, 4], 6), vec![1, 2]);
 Time complexity: \\( \mathcal{O} ( n ) \\)
 
 Space complexity: \\( \mathcal{O} ( n ) \\)
+
+where \\( n \\) is the size of the input array.
 
 ```rust, edition2018, no_run
 use std::collections::HashMap;
